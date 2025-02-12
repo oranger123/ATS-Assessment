@@ -1,13 +1,13 @@
-YouTube Clone Application with Kubernetes
+# YouTube Clone Application with Kubernetes
 This repository contains the code and instructions for deploying a YouTube Clone application using Kubernetes on an Amazon EKS (Elastic Kubernetes Service) cluster.
 
-Prerequisites
+# Prerequisites
 Git installed on your machine.
 Docker installed on your machine.
 Terraform installed on your machine.
 Amazon Web Services (AWS) account and IAM credentials.
 kubectl installed for Kubernetes cluster management.
-#Steps to Build and Deploy the Application
+# Steps to Build and Deploy the Application
 
 1. Clone the GitHub Repository
 Start by cloning the repository containing the static application code.
@@ -57,7 +57,7 @@ Deploy the service file to expose your application:
 5. Monitor Application with Prometheus & Grafana
 Although the Prometheus and Grafana configuration files are not included, you can manually download and configure Prometheus and Grafana to monitor your application’s health.
 
-Manual Process:
+# Manual Process:
 Download and install Prometheus and Grafana in the appropriate namespace.
 Configure Prometheus to collect metrics from your Kubernetes cluster.
 Access the Grafana dashboard to monitor the health status of your worker nodes and application.
